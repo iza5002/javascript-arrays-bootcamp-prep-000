@@ -47,17 +47,11 @@ function removeElementFromBeginningOfArray(array) {
 //  describe('destructivelyRemoveElementFromEndOfArray(array)', () => {
     function destructivelyRemoveElementFromEndOfArray(array) {
       array.pop()
-    )
-    
-    it('alters the original array', ()=>{
-      const array = [1, 2, 3];
-      destructivelyRemoveElementFromEndOfArray(array);
-      expect(array).to.eql([1, 2]);
-    })
-  })
-  
-  describe('removeElementFromEndOfArray(array)', () => {
-    it('removes the last element from the array', () => {
+      return array 
+    }
+
+//  describe('removeElementFromEndOfArray(array)', () => {
+function ('removes the last element from the array', () => {
       expect(removeElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
     })
     
