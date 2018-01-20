@@ -51,9 +51,8 @@ function removeElementFromBeginningOfArray(array) {
     }
 
 //  describe('removeElementFromEndOfArray(array)', () => {
-function ('removes the last element from the array', () => {
-      expect(removeElementFromEndOfArray([1, 2, 3])).to.eql([1, 2])
-    })
+function removeElementFromEndOfArray(array) {
+     array.slice(0, - 1)
     
     it('does not alter the original array', () => {
       const array = [1, 2, 3];
