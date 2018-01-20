@@ -52,12 +52,7 @@ function removeElementFromBeginningOfArray(array) {
 
 //  describe('removeElementFromEndOfArray(array)', () => {
 function removeElementFromEndOfArray(array) {
-     array.slice(0, - 1)
-    
-    it('does not alter the original array', () => {
-      const array = [1, 2, 3];
-      removeElementFromEndOfArray(array);
-      expect(array).to.eql([1, 2, 3]);
-    })
-  })
-})
+     array.slice(0, array.length - 1)
+     return array
+}
+
