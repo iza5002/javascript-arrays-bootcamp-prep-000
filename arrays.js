@@ -52,7 +52,7 @@ function removeElementFromBeginningOfArray(array) {
 
 //  describe('removeElementFromEndOfArray(array)', () => {
 function removeElementFromEndOfArray(array) {
-     array.slice(0, array.length - 1)
-     return array
+    var newarr = array.slice(0, array.length - 1)
+     return newarr
 }
 
